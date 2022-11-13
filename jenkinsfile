@@ -4,7 +4,7 @@ pipeline {
     stage('Build'){
       steps {
       echo"coucou"
-	sh 'ng build'
+	sh 'npm run build'
       }
       }
     stage('Test'){

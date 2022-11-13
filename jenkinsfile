@@ -16,5 +16,10 @@ pipeline {
       echo"le deploy"
       }
       }
+    stage('signal'){
+      steps {
+      echo"le signal"
+      }
+      }
   }
 }

@@ -6,6 +6,10 @@ pipeline {
       echo"coucou"
 	sh 'pwd'
       }
+            steps {
+      echo"coucou"
+	sh 'ng build'
+      }
       }
     stage('Test'){
       steps {
